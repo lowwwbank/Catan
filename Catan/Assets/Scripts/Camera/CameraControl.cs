@@ -7,8 +7,6 @@ namespace Catan.Camera
     {
         public float sens = 0.02f;
         private Vector3 posprime;
-
-        // Camera values
         public int scrollradius = 0;
         public float sidesens = 10f;
         public float arrowkeysens = 5f;
@@ -22,8 +20,6 @@ namespace Catan.Camera
         public float camdist = 25f;
         public float camdistmultiplier = 10f;
         public float dynamiscrollcmultiplier = 0.10f;
-
-        // Values that dictate the bounds of the camera
         public float xBound0 = -3f;
         public float xBound1 = 30f;
         public float zBound0 = -25f;
@@ -31,7 +27,6 @@ namespace Catan.Camera
 
         private void Start()
         {
-            // Initialize Camera position
             transform.position = new Vector3(transform.position.x, camdist, transform.position.z);
             transform.rotation = Quaternion.Euler(0, -90, 0);
             cam.transform.rotation = Quaternion.Euler(62, -90, 0);
