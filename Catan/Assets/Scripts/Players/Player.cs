@@ -1,5 +1,5 @@
 using UnityEngine;
-using Catan.Resource;
+using Catan.ResourcePhase;
 using System.Linq;
 using System.Text;
 
