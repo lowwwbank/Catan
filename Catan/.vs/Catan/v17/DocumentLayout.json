@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4738008-B38B-A26D-412F-A4FE1EAA2FF2}|Assembly-CSharp.csproj|c:\\users\\arseniy\\documents\\github\\catan\\catan\\assets\\scripts\\ui\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4738008-B38B-A26D-412F-A4FE1EAA2FF2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameManagement\\InteractionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -66,6 +70,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{C4738008-B38B-A26D-412F-A4FE1EAA2FF2}|Assembly-CSharp.csproj|C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\assets\\scripts\\players\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4738008-B38B-A26D-412F-A4FE1EAA2FF2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\players\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,11 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\PauseMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T23:41:20.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TradePhase.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\TradePhase.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\TradePhase.cs",
@@ -87,25 +107,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\TradePhase.cs",
               "ViewState": "AQIAAGYAAAAAAAAAAAAAAAcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T17:47:49.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T17:47:49.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TradePhasePortTrade.cs",
-              "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\TradePhasePortTrade.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TradePhasePortTrade.cs",
-              "ToolTip": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\TradePhasePortTrade.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\TradePhasePortTrade.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAxwBgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T17:41:22.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ResourceSteal.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\ResourceSteal.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\ResourceSteal.cs",
@@ -117,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ResourceSplit.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\ResourceSplit.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\ResourceSplit.cs",
@@ -129,19 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResourceSplit.cs",
-              "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\ResourceSplit.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ResourceSplit.cs",
-              "ToolTip": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\ResourceSplit.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\ResourceSplit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T17:14:08.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InteractionManager.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameManagement\\InteractionManager.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameManagement\\InteractionManager.cs",
@@ -154,19 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Trader.cs",
-              "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\TradePhase\\Trader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TradePhase\\Trader.cs",
-              "ToolTip": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\TradePhase\\Trader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TradePhase\\Trader.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T12:03:28.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GameSettings.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\Settings\\GameSettings.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\Settings\\GameSettings.cs",
@@ -178,7 +160,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\PauseMenu.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\PauseMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T23:41:18.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TradePhasePortTrade.cs",
+              "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\TradePhasePortTrade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TradePhasePortTrade.cs",
+              "ToolTip": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\TradePhasePortTrade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\TradePhasePortTrade.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAxwBgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:41:22.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResourceSplit.cs",
+              "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\ResourceSplit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ResourceSplit.cs",
+              "ToolTip": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\ResourceSplit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ResourceSplit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:14:08.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Trader.cs",
+              "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\TradePhase\\Trader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TradePhase\\Trader.cs",
+              "ToolTip": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\TradePhase\\Trader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TradePhase\\Trader.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T12:03:28.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\GameManagement\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManagement\\GameManager.cs",
@@ -190,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TileGameObject.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\GameBoard\\TileGameObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameBoard\\TileGameObject.cs",
@@ -202,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BoardInitializer.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\BoardInitializer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\BoardInitializer.cs",
@@ -214,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BoardTokenGameObject.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\BoardTokenGameObject.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\BoardTokenGameObject.cs",
@@ -226,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "TileLabelGameObject.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\TileLabelGameObject.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\TileLabelGameObject.cs",
@@ -238,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TileGameObject.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\TileGameObject.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\TileGameObject.cs",
@@ -250,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\GameBoard\\Board.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameBoard\\Board.cs",
@@ -262,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "RoadGameObject.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\RoadGameObject.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\RoadGameObject.cs",
@@ -274,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TileVertex.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\TileVertex.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\GameBoard\\TileVertex.cs",
@@ -286,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "RoadGameObject.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\GameBoard\\RoadGameObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameBoard\\RoadGameObject.cs",
@@ -298,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\Players\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Players\\Player.cs",
