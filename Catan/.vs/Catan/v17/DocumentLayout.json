@@ -3,7 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\BoardSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\TradePhase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4738008-B38B-A26D-412F-A4FE1EAA2FF2}|Assembly-CSharp.csproj|c:\\users\\arseniy\\documents\\github\\catan\\catan\\assets\\scripts\\ui\\tradephasetradeoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4738008-B38B-A26D-412F-A4FE1EAA2FF2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\tradephasetradeoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,14 +28,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\UIManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\UIManager.cs",
+              "ToolTip": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\UIManager.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\UIManager.cs",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T19:33:03.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoardSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\BoardSettings.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\BoardSettings.cs",
+              "ToolTip": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\BoardSettings.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\BoardSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T19:29:18.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TradePhase.cs",
               "DocumentMoniker": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\TradePhase.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\TradePhase.cs",
               "ToolTip": "C:\\Users\\Arseniy\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\TradePhase.cs",
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\\u044E\u043D\u0438\u0442\u0438\\Assets\\Scripts\\UI\\TradePhase.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHEAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T16:54:02.284Z",
+              "WhenOpened": "2024-06-01T19:19:07.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TradePhaseTradeOffer.cs",
+              "DocumentMoniker": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\TradePhaseTradeOffer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TradePhaseTradeOffer.cs",
+              "ToolTip": "C:\\Users\\Arseniy\\Documents\\GitHub\\Catan\\Catan\\Assets\\Scripts\\UI\\TradePhaseTradeOffer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\TradePhaseTradeOffer.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAgwFkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T19:08:45.648Z",
               "EditorCaption": ""
             }
           ]

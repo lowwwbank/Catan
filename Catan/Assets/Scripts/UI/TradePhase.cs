@@ -17,6 +17,7 @@ namespace Catan.UI
         public GameObject portTradeWindow;
         public GameObject tradeButton;
         public GameObject nextButton;
+        public GameObject offerWindow;
         public GameObject acceptedBox;
         public TextMeshProUGUI acceptedText;
         public GameManager gm;
@@ -37,6 +38,16 @@ namespace Catan.UI
             CloseTradeWindows();
             tradeWindow.GetComponent<TradePhaseTradeWindow>().Initialize();
             tradeWindow.SetActive(true);
+        }
+        public void OpenOfferWindow()
+        {
+            CloseTradeWindows();
+            offerWindow.SetActive(true);
+        }
+        public void ShowOffer(Player p1, Player p2, Resource[] p1Offer, Resource[] p2Offer)
+        {
+            offerWindow.GetComponent<TradePhaseTradeOffer>().Initialize(p1, p2, p1Offer, p2Offer);
+            OpenOfferWindow();
         }
         public void Offer(Player p1, Player p2, Resource[] p1Offer, Resource[] p2Offer)
         {
@@ -66,7 +77,19 @@ namespace Catan.UI
             tradeButton.SetActive(true);
             nextButton.SetActive(true);
         }
-
+        public void ShowTradeResultWindow(bool tradeResult)
+        {
+            CloseTradeWindows();
+            if (tradeResult)
+            {
+                acceptedText.text = "Trade Accepted!";
+            }
+            else
+            {
+                acceptedText.text = "Trade Rejected.";
+            }
+            acceptedBox.SetActive(true);
+        }
         public void CloseTradeWindows()
         {
             playerSelect.SetActive(false);
