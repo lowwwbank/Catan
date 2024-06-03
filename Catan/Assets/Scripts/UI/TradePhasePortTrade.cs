@@ -24,6 +24,8 @@ public class TradePhasePortTrade : MonoBehaviour
 
     public int selectedResource;
 
+    public TradePhase tradePhase;
+
     public Board board;
 
 
@@ -150,5 +152,7 @@ public class TradePhasePortTrade : MonoBehaviour
         {
             Trader.Trade(player, new Resource[] { new Resource(toSell, cost) }, new Resource[] { new Resource(toBuy, 1) });
         }
+        UpdateUI(selectedResource);
+        tradePhase.gm.UIManager.UpdateUI();
     }
 }

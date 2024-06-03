@@ -103,7 +103,7 @@ namespace Catan.UI {
                 Trader.Discard(player, res.ToArray());
                 gameObject.SetActive(false);
             }
-
+            GameObject.Find("Game Manager").GetComponent<GameManager>().UIManager.SplitResources(playerStack);
         }
 
         public void InitializePlayer(Stack<Player> plrs)
