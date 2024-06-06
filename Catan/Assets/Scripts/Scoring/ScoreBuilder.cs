@@ -10,6 +10,7 @@ namespace Catan.Scoring
     public class ScoreBuilder : MonoBehaviour
     {
         public Board board;
+        Catan.Players.Player[] players;
 
         public void CalculateScores(Player[] players)
         {
@@ -26,8 +27,6 @@ namespace Catan.Scoring
             {
                 ends[i] = new List<(int, int)>();
             }
-
-            // Calculate scores from houses, grab houses for branching off to calculate longest road
             for (int i = 0; i < vertices.Length; i++)
             {
                 for (int j = 0; j < vertices[i].Length; j++)
@@ -75,7 +74,6 @@ namespace Catan.Scoring
                 players[i].longestRoadLength = maxLen - 1;
             }
 
-            // Set road lengths
             int max = 0;
             int maxIndex = 0;
             for (int i = 0; i < players.Length; i++)

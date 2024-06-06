@@ -19,6 +19,7 @@ public class TradePhasePlayerSelect : MonoBehaviour
     public void SelectPlayer(int player)
     {
         tradePhase.selectedPlayer = selectablePlayers[player];
+        tradePhase.OpenTradeWindow();
     }
 
     public void Initialize()

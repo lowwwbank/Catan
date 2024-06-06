@@ -12,6 +12,8 @@ namespace Catan.Settings
         public static int maxBuildAttempts;
 
         public static int vpWinCondition = 10;
+        public static bool animations;
+        public static bool testing = true;
 
         public static Player[] players;
         public static int chosenPreset = 0;

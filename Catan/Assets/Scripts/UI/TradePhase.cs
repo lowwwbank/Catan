@@ -94,9 +94,12 @@ namespace Catan.UI
         {
             playerSelect.SetActive(false);
             tradeWindow.SetActive(false);
+            offerWindow.SetActive(false);
             portTradeWindow.SetActive(false);
             tradeButton.SetActive(false);
             nextButton.SetActive(false);
+            acceptedBox.SetActive(false);
+            gm.UIManager.UpdateUI();
         }
 
         public void Start()
@@ -104,6 +107,7 @@ namespace Catan.UI
             playerSelect.GetComponent<TradePhasePlayerSelect>().tradePhase = this;
             tradeWindow.GetComponent<TradePhaseTradeWindow>().tradePhase = this;
             portTradeWindow.GetComponent<TradePhasePortTrade>();
+            offerWindow.GetComponent<TradePhaseTradeOffer>().tradePhase = this;
         }
     }
 }

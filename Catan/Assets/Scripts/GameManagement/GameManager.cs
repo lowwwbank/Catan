@@ -96,12 +96,18 @@ namespace Catan.GameManagement
         public void OnVictory(Player winner)
         {
             Debug.Log("Winner! " + winner.playerName + " has won!");
-            ResetGameAndBegin();
+            if (GameSettings.testing)
+            {
+                ResetGameAndBegin();
+            }
         }
  
         public void OnStaleMate()
         {
-            ResetGameAndBegin();
+            if (GameSettings.testing)
+            {
+                ResetGameAndBegin();
+            }
         }
  
         public void ResetGameAndBegin()

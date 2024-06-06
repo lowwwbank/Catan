@@ -63,6 +63,8 @@ public class ResourceSteal : MonoBehaviour
                 rIndex = (i + rand) % victim.resources.Length;
             }
         }
+        Trader.Trade(thief, victim, new Resource[0], new Resource[] { new Resource(victim.resources[rIndex].type, 1) });
+        GameObject.Find("Game Manager").GetComponent<GameManager>().UIManager.EndSteal();
     }
 
 
