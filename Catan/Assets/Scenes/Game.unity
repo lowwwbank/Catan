@@ -5507,7 +5507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 395370ff4ef03f54296d0299c1ec2f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Panel: {fileID: 313022246}
 --- !u!114 &313022249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20445,7 +20444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: 145}
+  m_AnchoredPosition: {x: 400, y: 200}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1214550963
@@ -22709,7 +22708,6 @@ MonoBehaviour:
   scoreBuilder: {fileID: 1402203381}
   totalTurns: 0
   totalRounds: 0
-  quickRolling: 1
 --- !u!114 &1402203380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25372,9 +25370,9 @@ MonoBehaviour:
   playerSelect: {fileID: 613262575}
   tradeWindow: {fileID: 2118332118}
   portTradeWindow: {fileID: 1972504592}
-  offerWindow: {fileID: 1187383882}
   tradeButton: {fileID: 801734292}
   nextButton: {fileID: 122139187}
+  offerWindow: {fileID: 1187383882}
   acceptedBox: {fileID: 818592269}
   acceptedText: {fileID: 1699112439}
   gm: {fileID: 1402203379}
